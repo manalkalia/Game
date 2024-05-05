@@ -5,7 +5,7 @@ class Player {
     this.positionX = 0;
     this.positionY = 0;
     this.rank = 0;
-this.fuel = 185;
+    this.fuel = 185;
     this.life = 185;
     this.score = 0;
 
@@ -26,6 +26,7 @@ this.fuel = 185;
       positionY: this.positionY,
       rank: this.rank,
       score: this.score,
+      life: this.life,
     });
   }
   //TA
